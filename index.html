@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <ul class="tabs">
+      <button class="add-tab-btn">+</button>
+      <li class="tab active">Tab 1</li>
+    </ul>
+    <div class="input-container">
+        <span class="star">*</span>
+      <input type="text" id="tab-name-input" placeholder="Enter Tab Name">
+      <input type="text" id="url-input" placeholder="Enter URL">
+      <button class="search-btn">Search</button>
+    </div>
+    <div class="content-container">
+      <iframe class="iframe active" src="about:blank"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
